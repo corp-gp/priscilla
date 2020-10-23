@@ -4,7 +4,7 @@ module Priscilla
 
     def initialize
       self.width     = 80
-      self.decorator = ':dancer: '
+      self.decorator = '@'.green
       self.presenter = ->(msg) { puts msg; puts }
     end
 
